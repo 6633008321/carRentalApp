@@ -43,7 +43,7 @@ const server = app.listen(
   console.log(
     "Server running in",
     process.env.NODE_ENV,
-    "on "+ process.env.HOST + PORT
+    "on "+ process.env.HOST+ ":" + PORT
   )
 );
 
